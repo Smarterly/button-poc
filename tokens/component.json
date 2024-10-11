@@ -1,0 +1,16 @@
+{
+  "button": {
+    "primary": {
+      "enabled": {
+        "color": {
+          "$type": "color",
+          "$value": "{text.on--primary.color}"
+        },
+        "background-color": {
+          "$type": "color",
+          "$value": "{container.primary.background-color}"
+        }
+      }
+    }
+  }
+}

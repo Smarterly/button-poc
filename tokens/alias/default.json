@@ -1,0 +1,24 @@
+{
+  "text": {
+    "on--primary": {
+      "color": {
+        "$type": "color",
+        "$value": "{color.white}"
+      }
+    }
+  },
+  "container": {
+    "primary": {
+      "background-color": {
+        "$type": "color",
+        "$value": "{color.primary900}"
+      }
+    }
+  },
+  "container/border-radius": {
+    "pill": {
+      "$type": "borderRadius",
+      "$value": "{border-radius.pill}"
+    }
+  }
+}
