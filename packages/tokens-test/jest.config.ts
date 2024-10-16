@@ -1,10 +1,10 @@
 export default {
-  displayName: 'tokens',
+  displayName: 'tokens-test',
   preset: '../../jest.preset.js',
   testEnvironment: 'node',
   transform: {
     '^.+\\.[tj]s$': ['ts-jest', { tsconfig: '<rootDir>/tsconfig.spec.json' }],
   },
   moduleFileExtensions: ['ts', 'js', 'html'],
-  coverageDirectory: '../../coverage/package/tokens',
+  coverageDirectory: '../../coverage/package/tokens-test',
 };
