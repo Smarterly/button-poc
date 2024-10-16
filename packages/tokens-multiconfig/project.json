@@ -1,0 +1,21 @@
+{
+  "name": "tokens-multiconfig",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "library",
+  "sourceRoot": "packages/tokens-multiconfig/src",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nxkit/style-dictionary:build",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/packages/tokens-multiconfig",
+        "styleDictionaryConfig": "packages/tokens-multiconfig/style-dictionary.config.ts",
+        "tsConfig": "packages/tokens-multiconfig/tsconfig.json"
+      }
+    },
+    "lint": {
+      "command": "eslint packages/tokens-multiconfig/**/*.{js,ts} packages/tokens-multiconfig/package.json"
+    }
+  }
+}
