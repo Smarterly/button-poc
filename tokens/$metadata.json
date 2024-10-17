@@ -1,0 +1,10 @@
+{
+  "tokenSetOrder": [
+    "base",
+    "alias/default/light",
+    "alias/default/dark",
+    "alias/forest/light",
+    "alias/forest/dark",
+    "component"
+  ]
+}
