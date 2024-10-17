@@ -1,0 +1,36 @@
+{
+  "text": {
+    "on-action": {
+      "color": {
+        "$type": "color",
+        "$value": "{color.white}"
+      }
+    },
+    "on-default": {
+      "color": {
+        "$type": "color",
+        "$value": "{color.mono.black}"
+      }
+    }
+  },
+  "surface": {
+    "action": {
+      "background-color": {
+        "$type": "color",
+        "$value": "{color.primary900}"
+      }
+    },
+    "default": {
+      "background-color": {
+        "$type": "color",
+        "$value": "{color.white}"
+      }
+    }
+  },
+  "container/border-radius": {
+    "pill": {
+      "$type": "borderRadius",
+      "$value": "{border-radius.pill}"
+    }
+  }
+}
