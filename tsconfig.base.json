@@ -16,9 +16,7 @@
     "baseUrl": ".",
     "paths": {
       "@button-poc/tokens-complete": ["packages/tokens-complete/src/index.ts"],
-      "@button-poc/tokens-multiconfig": [
-        "packages/tokens-multiconfig/src/index.ts"
-      ]
+      "@button-poc/tokens": ["packages/tokens/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

@@ -15,12 +15,12 @@ const configs: Config[] = metadata.tokenSetOrder.map((fileName) => {
         ? ['tokens/base.json']
         : ['tokens/base.json', `tokens/${fileName}.json`],
     preprocessors: ['tokens-studio'],
-    buildPath: 'src/assets/css/',
+    buildPath: 'src/build/css/',
     platforms: {
       css: {
         transformGroup: 'tokens-studio',
         transforms: ['name/kebab'],
-        buildPath: 'src/assets/css/',
+        buildPath: 'src/build/css/',
         files: [
           {
             destination: `${destinationFileName}.css`,

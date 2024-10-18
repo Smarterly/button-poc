@@ -1,5 +1,5 @@
 {
-  "name": "tokens-multiconfig",
+  "name": "tokens",
   "version": "1.0.0",
   "description": "Design tokens transformation using Style Dictionary",
   "main": "buildTokens.mjs",
