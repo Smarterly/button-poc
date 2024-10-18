@@ -2,7 +2,7 @@
  * Do not edit directly, this file was auto-generated.
  */
 
-.forest-dark {
+:root {
   --color-white: #ffffff;
   --color-secondary900: #5a287d;
   --color-primary200: #f8d2ed;
@@ -15,10 +15,10 @@
   --font-family-museo-sans: 'Museo Sans';
   --font-family-museo-sans-rounded: 'Museo Sans Rounded';
   --text-button: 700 14px/20 'Museo Sans';
-  --text-on-action-color: #2b2b2b;
-  --text-on-default-color: #ffffff;
+  --text-on-action-color: #ffffff;
+  --text-on-default-color: #2b2b2b;
   --font-weight-bold: 700;
-  --surface-action-background-color: #ffffff;
-  --surface-default-color: #11776d;
+  --surface-action-background-color: #11776d;
+  --surface-default-color: #ffffff;
   --container-border-radius-pill: 30px;
 }

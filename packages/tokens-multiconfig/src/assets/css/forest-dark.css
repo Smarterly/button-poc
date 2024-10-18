@@ -2,7 +2,7 @@
  * Do not edit directly, this file was auto-generated.
  */
 
-.default-dark {
+:root {
   --color-white: #ffffff;
   --color-secondary900: #5a287d;
   --color-primary200: #f8d2ed;
@@ -19,6 +19,6 @@
   --text-on-default-color: #ffffff;
   --font-weight-bold: 700;
   --surface-action-background-color: #ffffff;
-  --surface-default-background-color: #dc1e83;
+  --surface-default-color: #11776d;
   --container-border-radius-pill: 30px;
 }
