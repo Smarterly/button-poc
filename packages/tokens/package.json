@@ -1,0 +1,17 @@
+{
+  "name": "tokens",
+  "version": "1.0.0",
+  "description": "Design tokens transformation using Style Dictionary",
+  "main": "buildTokens.mjs",
+  "scripts": {
+    "build": "npx tsx buildTokens.mjs",
+    "test": "test"
+  },
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tokens-studio/sd-transforms": "^1.2.5",
+    "tsx": "^4.19.1"
+  }
+}

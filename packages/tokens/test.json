@@ -1,0 +1,38 @@
+[
+  {
+    "source": ["tokens/base.json"],
+    "preprocessors": ["tokens-studio"],
+    "buildPath": "build/css/",
+    "files": [{ "destination": "base.css", "format": "css/variables" }]
+  },
+  {
+    "source": ["tokens/base.json", "tokens/alias/default/light.json"],
+    "preprocessors": ["tokens-studio"],
+    "buildPath": "build/css/",
+    "files": [{ "destination": "default-light.css", "format": "css/variables" }]
+  },
+  {
+    "source": ["tokens/base.json", "tokens/alias/default/dark.json"],
+    "preprocessors": ["tokens-studio"],
+    "buildPath": "build/css/",
+    "files": [{ "destination": "default-dark.css", "format": "css/variables" }]
+  },
+  {
+    "source": ["tokens/base.json", "tokens/alias/forest/light.json"],
+    "preprocessors": ["tokens-studio"],
+    "buildPath": "build/css/",
+    "files": [{ "destination": "forest-light.css", "format": "css/variables" }]
+  },
+  {
+    "source": ["tokens/base.json", "tokens/alias/forest/dark.json"],
+    "preprocessors": ["tokens-studio"],
+    "buildPath": "build/css/",
+    "files": [{ "destination": "forest-dark.css", "format": "css/variables" }]
+  },
+  {
+    "source": ["tokens/base.json", "tokens/component.json"],
+    "preprocessors": ["tokens-studio"],
+    "buildPath": "build/css/",
+    "files": [{ "destination": "component.css", "format": "css/variables" }]
+  }
+]
