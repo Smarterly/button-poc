@@ -1,0 +1,10 @@
+{
+  "tokenSetOrder": [
+    "base",
+    "theme-cushon/light",
+    "theme-cushon/dark",
+    "theme-forest/light",
+    "theme-forest/dark",
+    "component"
+  ]
+}

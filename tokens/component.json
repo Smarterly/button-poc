@@ -1,0 +1,20 @@
+{
+  "button": {
+    "primary": {
+      "enabled": {
+        "color": {
+          "$type": "color",
+          "$value": "{text.on-action.color}"
+        },
+        "background-color": {
+          "$type": "color",
+          "$value": "{surface.action.background-color}"
+        }
+      }
+    },
+    "border-radius": {
+      "$type": "borderRadius",
+      "$value": "{container/border-radius.pill}"
+    }
+  }
+}
