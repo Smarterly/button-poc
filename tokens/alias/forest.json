@@ -3,13 +3,17 @@
     "on-action": {
       "color": {
         "$type": "color",
-        "$value": "{color.mono.black}"
+        "$value": "{color.white}"
+      },
+      "color_dark": {
+        "$type": "color",
+        "$value": "{color.extended.forest}"
       }
     },
     "on-default": {
       "color": {
         "$type": "color",
-        "$value": "{color.white}"
+        "$value": "{color.mono.black}"
       }
     }
   },
@@ -17,13 +21,17 @@
     "action": {
       "background-color": {
         "$type": "color",
+        "$value": "{color.extended.forest}"
+      },
+      "background-color_dark": {
+        "$type": "color",
         "$value": "{color.white}"
       }
     },
     "default": {
       "color": {
         "$type": "color",
-        "$value": "{color.extended.forest}"
+        "$value": "{color.white}"
       }
     }
   },

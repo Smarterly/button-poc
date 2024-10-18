@@ -1,0 +1,10 @@
+{
+  "surface-action": {
+    "$type": "color",
+    "$value": "{surface.action.background-color}"
+  },
+  "text-on-action": {
+    "$type": "color",
+    "$value": "{text.on-action.color}"
+  }
+}

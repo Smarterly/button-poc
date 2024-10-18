@@ -4,6 +4,10 @@
       "color": {
         "$type": "color",
         "$value": "{color.white}"
+      },
+      "color_dark": {
+        "$type": "color",
+        "$value": "{color.primary900}"
       }
     },
     "on-default": {
@@ -17,11 +21,15 @@
     "action": {
       "background-color": {
         "$type": "color",
-        "$value": "{color.extended.forest}"
+        "$value": "{color.primary900}"
+      },
+      "background-color_dark": {
+        "$type": "color",
+        "$value": "{color.white}"
       }
     },
     "default": {
-      "color": {
+      "background-color": {
         "$type": "color",
         "$value": "{color.white}"
       }
