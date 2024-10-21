@@ -4,7 +4,7 @@
   "description": "Design tokens transformation using Style Dictionary",
   "main": "buildTokens.mjs",
   "scripts": {
-    "build": "npx tsx buildTokens.mjs",
+    "build": "npx tsx buildTokens.ts",
     "test": "test"
   },
   "type": "module",
