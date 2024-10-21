@@ -3,6 +3,10 @@
   "version": "0.0.1",
   "main": "./index.js",
   "types": "./index.d.ts",
+  "scripts": {
+    "build": "next build",
+    "storybook": "storybook dev -p 6006"
+  },
   "exports": {
     ".": {
       "import": "./index.mjs",
