@@ -4,11 +4,11 @@
       "enabled": {
         "color": {
           "$type": "color",
-          "$value": "{text.on-action.color}"
+          "$value": "{text-on-action}"
         },
         "background-color": {
           "$type": "color",
-          "$value": "{surface.action.background-color}"
+          "$value": "{surface-action}"
         }
       }
     },
