@@ -32,12 +32,12 @@ const configs: Config[] = metadata.tokenSetOrder
                 'tokens/component.json',
               ],
         preprocessors: ['tokens-studio'],
-        buildPath: 'src/build/css/',
+        buildPath: 'dist/packages/tokens/css/',
         platforms: {
           css: {
             transformGroup: 'tokens-studio',
             transforms: ['name/kebab'],
-            buildPath: 'src/build/css/',
+            buildPath: 'dist/packages/tokens/css/',
             files: [
               {
                 destination: `${destinationFileName}.css`,

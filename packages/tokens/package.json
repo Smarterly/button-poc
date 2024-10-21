@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Design tokens transformation using Style Dictionary",
   "main": "buildTokens.mjs",
+  "files": [
+    "dist/packages/tokens/css"
+  ],
   "scripts": {
     "build": "npx tsx buildTokens.ts",
     "test": "test"
