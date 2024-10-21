@@ -6,5 +6,9 @@
   "text-on-action": {
     "$type": "color",
     "$value": "{text.on-action.color_dark}"
+  },
+  "surface-default": {
+    "$type": "color",
+    "$value": "{surface.default.background-color_dark}"
   }
 }

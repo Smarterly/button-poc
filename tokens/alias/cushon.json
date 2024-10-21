@@ -32,6 +32,10 @@
       "background-color": {
         "$type": "color",
         "$value": "{color.white}"
+      },
+      "background-color_dark": {
+        "$type": "color",
+        "$value": "{color.mono.black}"
       }
     }
   },

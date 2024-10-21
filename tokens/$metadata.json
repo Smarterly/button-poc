@@ -3,8 +3,8 @@
     "base",
     "alias/cushon",
     "alias/forest",
-    "mode/dark",
-    "mode/light",
+    "mapped/dark",
+    "mapped/light",
     "component"
   ]
 }
