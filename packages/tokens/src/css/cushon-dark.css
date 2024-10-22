@@ -1,0 +1,58 @@
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+:root {
+  --color-white: #ffffff;
+  --color-secondary900: #5a287d;
+  --color-primary200: #f8d2ed;
+  --color-primary900: #dc1e83;
+  --color-extended-forest: #11776d;
+  --color-extended-cerise: #bb1b74;
+  --color-mono-black: #2b2b2b;
+  --color-mono-grey-dark: #6a7786;
+  --border-radius-pill: 30px;
+  --font-family-museo-sans: 'Museo Sans';
+  --font-family-museo-sans-rounded: 'Museo Sans Rounded';
+  --text-button-font-family: 'Museo Sans';
+  --text-button-font-weight: 700;
+  --text-button-font-size: 14px;
+  --text-button-line-height: 20;
+  --text-button-letter-spacing: 0.2;
+  --text-button-paragraph-spacing: 0;
+  --text-button-paragraph-indent: 0;
+  --text-button-text-decoration: none;
+  --text-button-text-case: initial;
+  --text-on-action-color: #ffffff;
+  --text-on-action-color-dark: #dc1e83;
+  --text-on-default-color: #2b2b2b;
+  --font-weight-bold: 700;
+  --spacing-base: 4px;
+  --spacing-base-x-1: 4px;
+  --spacing-base-x-2: 8px;
+  --spacing-base-x-3: 12px;
+  --spacing-base-x-4: 16px;
+  --spacing-base-x-5: 20px;
+  --spacing-base-x-6: 24px;
+  --spacing-base-x-7: 28px;
+  --spacing-base-x-8: 32px;
+  --spacing-base-x-9: 36px;
+  --helper-inherit: url('inherit');
+  --helper-none: url('none');
+  --helper-unset: url('unset');
+  --helper-centralise: url('display: flex; align-items: center; justify-content: center;');
+  --border-light: 0.5px;
+  --border-regular: 1px;
+  --border-semi-bold: 2px;
+  --surface-action-background-color: #dc1e83;
+  --surface-action-background-color-dark: #ffffff;
+  --surface-default-background-color: #ffffff;
+  --surface-default-background-color-dark: #2b2b2b;
+  --container-border-radius-pill: 30px;
+  --surface-action: #ffffff;
+  --text-on-action: #dc1e83;
+  --surface-default: #2b2b2b;
+  --button-primary-enabled-color: #dc1e83;
+  --button-primary-enabled-background-color: #ffffff;
+  --button-border-radius: 30px;
+}
