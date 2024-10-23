@@ -17,8 +17,7 @@
     "paths": {
       "@button-poc/components": ["packages/components/src/index.ts"],
       "@button-poc/components/server": ["packages/components/src/server.ts"],
-      "@button-poc/tokens": ["packages/tokens/src/index.ts"],
-      "@button-poc/tokens-complete": ["packages/tokens-complete/src/index.ts"]
+      "@button-poc/tokens": ["packages/tokens/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

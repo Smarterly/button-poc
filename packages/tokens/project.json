@@ -6,16 +6,29 @@
   "tags": [],
   "targets": {
     "build": {
-      "executor": "@nxkit/style-dictionary:build",
+      "executor": "nx:run-commands",
       "outputs": ["{options.outputPath}"],
       "options": {
-        "outputPath": "dist/packages/tokens",
-        "styleDictionaryConfig": "packages/tokens/style-dictionary.config.ts",
-        "tsConfig": "packages/tokens/tsconfig.json"
+        "command": "npm run build",
+        "outputPath": "dist/packages/tokens/css",
+        "assets": [
+          {
+            "input": "packages/tokens/src/css",
+            "glob": "**/*",
+            "output": "./css"
+          }
+        ]
       }
     },
     "lint": {
       "command": "eslint packages/tokens/**/*.{js,ts} packages/tokens/package.json"
+    },
+    "style-dictionary": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "style-dictionary build --config ./config.mjs",
+        "cwd": "{projectRoot}"
+      }
     }
   }
 }
