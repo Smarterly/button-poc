@@ -42,6 +42,9 @@ const configs = metadata.tokenSetOrder
               {
                 destination: `${destinationFileName}.css`,
                 format: 'css/variables',
+                options: {
+                  selector: `.${destinationFileName}`,
+                },
               },
             ],
           },
