@@ -1,28 +1,10 @@
 {
-  "tokenSetOrder": {
-    "0": {
-      "$type": "other",
-      "$value": "base"
-    },
-    "1": {
-      "$type": "other",
-      "$value": "alias/cushon"
-    },
-    "2": {
-      "$type": "other",
-      "$value": "alias/forest"
-    },
-    "3": {
-      "$type": "other",
-      "$value": "mapped/dark"
-    },
-    "4": {
-      "$type": "other",
-      "$value": "mapped/light"
-    },
-    "5": {
-      "$type": "other",
-      "$value": "component"
-    }
-  }
+  "tokenSetOrder": [
+    "base",
+    "alias/cushon",
+    "alias/forest",
+    "mapped/dark",
+    "mapped/light",
+    "component"
+  ]
 }
