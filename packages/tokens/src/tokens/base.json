@@ -148,5 +148,16 @@
       "$type": "borderWidth",
       "$value": "2"
     }
+  },
+  "composition": {
+    "button": {
+      "padding": {
+        "$type": "composition",
+        "$value": {
+          "verticalPadding": "0",
+          "horizontalPadding": "{spacing.base-x-3}"
+        }
+      }
+    }
   }
 }

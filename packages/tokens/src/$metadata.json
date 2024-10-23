@@ -1,0 +1,11 @@
+{
+  "tokenSetOrder": [
+    "tokens/$metadata",
+    "tokens/base",
+    "tokens/alias/cushon",
+    "tokens/alias/forest",
+    "tokens/mapped/dark",
+    "tokens/mapped/light",
+    "tokens/component"
+  ]
+}
