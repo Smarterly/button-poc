@@ -44,6 +44,8 @@
   --border-light: 0.5px;
   --border-regular: 1px;
   --border-semi-bold: 2px;
+  --composition-button-padding-vertical-padding: 0;
+  --composition-button-padding-horizontal-padding: 12px;
   --surface-action-background-color: #dc1e83;
   --surface-action-background-color-dark: #ffffff;
   --surface-default-background-color: #ffffff;

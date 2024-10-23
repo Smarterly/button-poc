@@ -2,7 +2,7 @@
  * Do not edit directly, this file was auto-generated.
  */
 
-:root {
+.forest-dark {
   --color-white: #ffffff;
   --color-secondary900: #5a287d;
   --color-primary200: #f8d2ed;
@@ -37,9 +37,9 @@
   --spacing-base-x-7: 28px;
   --spacing-base-x-8: 32px;
   --spacing-base-x-9: 36px;
-  --helper-inherit: url('inherit');
-  --helper-none: url('none');
-  --helper-unset: url('unset');
+  --helper-inherit: 'inherit';
+  --helper-none: 'none';
+  --helper-unset: 'unset';
   --helper-centralise: url('display: flex; align-items: center; justify-content: center;');
   --border-light: 0.5px;
   --border-regular: 1px;
@@ -51,10 +51,10 @@
   --surface-default-background-color: #ffffff;
   --surface-default-background-color-dark: #2b2b2b;
   --container-border-radius-pill: 30px;
-  --surface-action: #11776d;
-  --text-on-action: #ffffff;
-  --surface-default: #ffffff;
-  --button-primary-enabled-color: #ffffff;
-  --button-primary-enabled-background-color: #11776d;
+  --surface-action: #ffffff;
+  --text-on-action: #11776d;
+  --surface-default: #2b2b2b;
+  --button-primary-enabled-color: #11776d;
+  --button-primary-enabled-background-color: #ffffff;
   --button-border-radius: 30px;
 }
