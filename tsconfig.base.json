@@ -15,7 +15,9 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@button-poc/tokens-test": ["packages/tokens-test/src/index.ts"]
+      "@button-poc/components": ["packages/components/src/index.ts"],
+      "@button-poc/components/server": ["packages/components/src/server.ts"],
+      "@button-poc/tokens": ["packages/tokens/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

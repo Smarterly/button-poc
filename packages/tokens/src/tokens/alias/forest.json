@@ -1,0 +1,52 @@
+{
+  "text": {
+    "on-action": {
+      "color": {
+        "$type": "color",
+        "$value": "{color.white}"
+      },
+      "color_dark": {
+        "$type": "color",
+        "$value": "{color.extended.forest}"
+      }
+    },
+    "on-default": {
+      "color": {
+        "$type": "color",
+        "$value": "{color.mono.black}"
+      }
+    }
+  },
+  "surface": {
+    "action": {
+      "background-color": {
+        "$type": "color",
+        "$value": "{color.extended.forest}"
+      },
+      "background-color_dark": {
+        "$type": "color",
+        "$value": "{color.white}"
+      }
+    },
+    "default": {
+      "background-color": {
+        "$type": "color",
+        "$value": "{color.white}"
+      },
+      "background-color_dark": {
+        "$type": "color",
+        "$value": "{color.mono.black}"
+      }
+    },
+    "border-radius": {
+      "pill": {
+        "$type": "borderRadius",
+        "$value": "{border-radius.pill}"
+      },
+      "full": {
+        "$type": "borderRadius",
+        "$value": "{border-radius.full}"
+      }
+    }
+  }
+}

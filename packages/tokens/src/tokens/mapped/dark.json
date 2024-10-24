@@ -1,0 +1,24 @@
+{
+  "_surface": {
+    "action": {
+      "background-color": {
+        "$type": "color",
+        "$value": "{surface.default.background-color}"
+      }
+    },
+    "default": {
+      "background-color": {
+        "$type": "color",
+        "$value": "{surface.default.background-color_dark}"
+      }
+    }
+  },
+  "_text": {
+    "on-action": {
+      "color": {
+        "$type": "color",
+        "$value": "{text.on-action.color_dark}"
+      }
+    }
+  }
+}

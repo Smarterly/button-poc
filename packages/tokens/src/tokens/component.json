@@ -1,0 +1,47 @@
+{
+  "button": {
+    "border-radius": {
+      "$type": "borderRadius",
+      "$value": "{surface.border-radius.full}"
+    },
+    "padding": {
+      "$type": "composition",
+      "$value": {
+        "verticalPadding": "{spacing.none}",
+        "horizontalPadding": "{spacing.base-x-3}"
+      }
+    },
+    "color": {
+      "primary": {
+        "enabled": {
+          "$type": "color",
+          "$value": "{_text.on-action.color}"
+        }
+      }
+    },
+    "background-color": {
+      "primary": {
+        "enabled": {
+          "$type": "color",
+          "$value": "{_surface.action.background-color}"
+        }
+      }
+    },
+    "box-shadow": {
+      "primary": {
+        "enabled": {
+          "$type": "boxShadow",
+          "$value": "{box-shadow.low}"
+        }
+      }
+    },
+    "min-height": {
+      "$type": "sizing",
+      "$value": "{sizing.base-x-14}"
+    },
+    "min-width": {
+      "$type": "sizing",
+      "$value": "{sizing.base-x-28}"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "tokenSetOrder": [
+    "base",
+    "alias/cushon",
+    "alias/forest",
+    "mapped/light",
+    "mapped/dark",
+    "component"
+  ]
+}
