@@ -37,12 +37,12 @@
         "$type": "color",
         "$value": "{color.mono.black}"
       }
-    }
-  },
-  "container/border-radius": {
-    "pill": {
-      "$type": "borderRadius",
-      "$value": "{border-radius.pill}"
+    },
+    "border-radius": {
+      "pill": {
+        "$type": "borderRadius",
+        "$value": "{border-radius.pill}"
+      }
     }
   }
 }

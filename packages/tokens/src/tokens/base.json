@@ -76,6 +76,10 @@
     }
   },
   "spacing": {
+    "none": {
+      "$type": "spacing",
+      "$value": "0"
+    },
     "base": {
       "$type": "spacing",
       "$value": "4"
@@ -117,24 +121,6 @@
       "$value": "{spacing.base}*9"
     }
   },
-  "helper": {
-    "inherit": {
-      "$type": "asset",
-      "$value": "inherit"
-    },
-    "none": {
-      "$type": "asset",
-      "$value": "none"
-    },
-    "unset": {
-      "$type": "asset",
-      "$value": "unset"
-    },
-    "centralise": {
-      "$type": "asset",
-      "$value": "display: flex;\nalign-items: center;\njustify-content: center;"
-    }
-  },
   "border": {
     "light": {
       "$type": "borderWidth",
@@ -149,15 +135,65 @@
       "$value": "2"
     }
   },
-  "composition": {
-    "button": {
-      "padding": {
-        "$type": "composition",
-        "$value": {
-          "verticalPadding": "0",
-          "horizontalPadding": "{spacing.base-x-3}"
-        }
+  "helpers": {
+    "text-align": {
+      "left": {
+        "$type": "other",
+        "$value": "left"
+      },
+      "center": {
+        "$type": "other",
+        "$value": "center"
+      },
+      "right": {
+        "$type": "other",
+        "$value": "right"
       }
+    },
+    "keywords": {
+      "unset": {
+        "$type": "other",
+        "$value": "unset"
+      },
+      "initial": {
+        "$type": "other",
+        "$value": "initial"
+      },
+      "revert": {
+        "$type": "other",
+        "$value": "revert"
+      },
+      "all": {
+        "$type": "other",
+        "$value": "all"
+      },
+      "none": {
+        "$type": "other",
+        "$value": "none"
+      }
+    }
+  },
+  "box-shadow": {
+    "low": {
+      "$type": "boxShadow",
+      "$value": {
+        "x": "0.263",
+        "y": "6.995",
+        "blur": "11",
+        "spread": "0",
+        "color": "rgba(0,0,0,0.16)",
+        "type": "dropShadow"
+      }
+    }
+  },
+  "sizing": {
+    "base": {
+      "$type": "sizing",
+      "$value": "4"
+    },
+    "base-x-14": {
+      "$type": "sizing",
+      "$value": "{sizing.base}*14"
     }
   }
 }

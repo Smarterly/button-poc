@@ -1,20 +1,43 @@
 {
   "button": {
-    "primary": {
-      "enabled": {
-        "color": {
+    "border-radius": {
+      "$type": "borderRadius",
+      "$value": "{surface.border-radius.pill}"
+    },
+    "padding": {
+      "$type": "composition",
+      "$value": {
+        "verticalPadding": "{spacing.none}",
+        "horizontalPadding": "{spacing.base-x-3}"
+      }
+    },
+    "color": {
+      "primary": {
+        "enabled": {
           "$type": "color",
-          "$value": "{text-on-action}"
-        },
-        "background-color": {
-          "$type": "color",
-          "$value": "{surface-action}"
+          "$value": "{_text.on-action.color}"
         }
       }
     },
-    "border-radius": {
-      "$type": "borderRadius",
-      "$value": "{container/border-radius.pill}"
+    "background-color": {
+      "primary": {
+        "enabled": {
+          "$type": "color",
+          "$value": "{_surface.action.background-color}"
+        }
+      }
+    },
+    "box-shadow": {
+      "primary": {
+        "enabled": {
+          "$type": "boxShadow",
+          "$value": "{box-shadow.low}"
+        }
+      }
+    },
+    "min-width": {
+      "$type": "sizing",
+      "$value": "{sizing.base-x-14}"
     }
   }
 }
