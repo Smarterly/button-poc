@@ -2,7 +2,7 @@
  * Do not edit directly, this file was auto-generated.
  */
 
-:root {
+.forest-dark {
   --color-white: #ffffff;
   --color-secondary900: #5a287d;
   --color-primary200: #f8d2ed;
@@ -37,10 +37,12 @@
   --spacing-base-x-7: 28px;
   --spacing-base-x-8: 32px;
   --spacing-base-x-9: 36px;
-  --helper-inherit: url('inherit');
-  --helper-none: url('none');
-  --helper-unset: url('unset');
-  --helper-centralise: url('display: flex; align-items: center; justify-content: center;');
+  --helper-inherit: url("inherit");
+  --helper-none: url("none");
+  --helper-unset: url("unset");
+  --helper-centralise: url("display: flex;
+align-items: center;
+justify-content: center;");
   --border-light: 0.5px;
   --border-regular: 1px;
   --border-semi-bold: 2px;

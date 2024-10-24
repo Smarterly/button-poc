@@ -1,4 +1,3 @@
-import { HelloServer } from '@button-poc/components/server';
 import './global.css';
 
 export const metadata = {
@@ -13,10 +12,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>
-        <HelloServer />
-        {children}
-      </body>
+      <body>{children}</body>
     </html>
   );
 }
