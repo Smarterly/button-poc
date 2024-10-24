@@ -42,6 +42,10 @@
       "pill": {
         "$type": "borderRadius",
         "$value": "{border-radius.pill}"
+      },
+      "full": {
+        "$type": "borderRadius",
+        "$value": "{border-radius.full}"
       }
     }
   }

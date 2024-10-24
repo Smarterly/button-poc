@@ -41,6 +41,10 @@
     "pill": {
       "$type": "borderRadius",
       "$value": "30"
+    },
+    "full": {
+      "$type": "borderRadius",
+      "$value": "100"
     }
   },
   "font-family": {
@@ -194,6 +198,10 @@
     "base-x-14": {
       "$type": "sizing",
       "$value": "{sizing.base}*14"
+    },
+    "base-x-28": {
+      "$type": "sizing",
+      "$value": "{sizing.base}*28"
     }
   }
 }
